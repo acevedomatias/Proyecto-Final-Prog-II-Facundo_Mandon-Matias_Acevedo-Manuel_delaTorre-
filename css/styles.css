@@ -14,7 +14,6 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
-    cursor: pointer;
   }
   
 header div {
@@ -62,6 +61,7 @@ header h1 {
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 28px;
     }
+    
   
 header nav a {
       font-size: 16px;
@@ -95,6 +95,15 @@ main{
   padding: 30px; 
   flex-direction: row;
   border-radius: 35px;
+}
+@media screen and (max-width: 768px) {
+  .imgdestacados {
+    width: 350px;
+    height: 350px;
+    padding: 30px; 
+    flex-direction: column;
+    border-radius: 35px;
+  }
 }
 
 .consulta-container {
@@ -184,4 +193,3 @@ input[type="reset"]:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
-
