@@ -146,6 +146,14 @@ h3 {
   flex-direction: column;
 }
 
+h4 {  
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
 label {
   display: flexbox;
   margin-top: 15px;
@@ -166,9 +174,10 @@ textarea {
 
 input[type="submit"],
 input[type="reset"] {
-  width: 98%;
+  width: 100%;
   padding: 10px;
-  margin: 18px;
+  margin: 17px;
+  margin-left: 0px;
   font-size: 16px;
   color: white;
   border: none;
@@ -177,8 +186,9 @@ input[type="reset"] {
   background-color: #007bff;
 }
 
-input[type="reset"]:hover {
-  opacity: 0.9;
+input[type="submit"]:hover {
+  opacity: 0.8;
+  color: #ffffff;
 }
 
 .preguntas-container {
